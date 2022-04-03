@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    background-image: url("./img/Default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.align{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.key{
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    min-width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid grey;
+}
+
+p.undertext{
+    font-size: 12px;
+}

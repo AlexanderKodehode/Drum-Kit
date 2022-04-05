@@ -36,10 +36,11 @@ h1{
     color: white;
     margin: 0px;
     padding: 5px;
-    min-width: 50px;
-    border-radius: 50px;
+    width: 60px;
+    height: 60px;
     text-align: center;
-    border: 3px solid grey;
+    border-radius: 3px solid grey;
+    border-image: radial-gradient(#00FFFC, #FB01E9) 1;
 }
 
 p.undertext{

@@ -24,6 +24,9 @@ h1{
     color: white;
     font-size: 4rem;
     text-transform: capitalize;
+    background: linear-gradient(45deg, #00FFFC 21%, #FB01E9 65%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .grid-conteiner{
@@ -33,16 +36,21 @@ h1{
 }
 
 .key{
-    color: white;
+    border-radius: 50%;
     margin: 0px;
     padding: 5px;
     width: 60px;
     height: 60px;
     text-align: center;
-    border-radius: 3px solid grey;
-    border-image: radial-gradient(#00FFFC, #FB01E9) 1;
+    border: 3px solid grey;
+    border-image: linear-gradient(45deg, #00FFFC 21%, #FB01E9 65%) 1;
+}
+
+p.text{
+    color: white;
 }
 
 p.undertext{
+    color: white;
     font-size: 12px;
 }
